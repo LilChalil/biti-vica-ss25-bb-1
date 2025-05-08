@@ -67,9 +67,3 @@ Viele NAS-Geräte bieten die Möglichkeit, Daten auf Volume- oder Ordnerebene zu
 ## Fazit
 
 Ein NAS ist eine leistungsfähige und vielseitige Speicherlösung, die sowohl im privaten als auch im beruflichen Umfeld viele Vorteile bietet. Mit Unterstützung für verschiedene Protokolle, Benutzerverwaltung, RAID-Schutz und Zusatzfunktionen wie Medienserver oder Cloud-Synchronisation ist ein NAS weit mehr als nur ein Datenspeicher. Gleichzeitig verlangt der Betrieb eines NAS ein gewisses Maß an technischer Verantwortung – insbesondere im Bereich Sicherheit, Backup und Systempflege. Wer sich jedoch mit den Grundlagen vertraut macht, erhält ein stabiles und langfristig nutzbares System zur zentralen Datenhaltung.
-
----
-
-*Abgabe für den Kurs „biti-vica-ss25-bb-1“ – Sommersemester 2025*  
-Autor: Max Mustermann  
-Dateiname: `Abgabe_1_NAS.md`
