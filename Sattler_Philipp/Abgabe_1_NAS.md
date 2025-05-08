@@ -44,21 +44,34 @@ Sicherheit ist ein zentrales Thema bei NAS, da häufig sensible oder personenbez
 
 Das Gerät sollte an einem geschützten Ort stehen – idealerweise in einem abschließbaren Raum oder Serverschrank. Eine unterbrechungsfreie Stromversorgung (USV) schützt bei Stromausfällen vor Datenverlust. Für Geschäftsräume kann auch ein Diebstahlschutz sinnvoll sein.
 
-### Benutzer- und Rechteverwaltung
+### Physische Sicherheit
+- Aufstellung in einem geschützten, abschließbaren Raum
+- Einsatz einer unterbrechungsfreien Stromversorgung (USV) gegen Stromausfall
+- Optional: Diebstahlschutz oder Serverrack-Befestigung
 
-Jeder Nutzer sollte ein eigenes Konto mit individuellen Rechten erhalten. Gruppenrechte helfen bei der strukturierten Verwaltung (z. B. nach Abteilungen oder Projekten). Passwörter sollten sicher gewählt und regelmäßig geändert werden. Alle Zugriffe sollten geloggt werden, um bei Bedarf nachverfolgen zu können, wer wann auf welche Daten zugegriffen hat.
+### Zugriff und Benutzerrechte
+- Verwendung von Einzelkonten mit klar definierten Zugriffsrechten
+- Komplexe Passwörter und regelmäßiger Passwortwechsel
+- Protokollierung von Zugriffen und Änderungen zur Nachvollziehbarkeit
 
-### Netzwerksicherheit
+### Netzwerkschutz
+- Zugriff aus dem Internet nur über sichere Verbindungen (z. B. VPN)
+- Aktivierung von Zwei-Faktor-Authentifizierung (2FA)
+- Nutzung verschlüsselter Übertragungen: HTTPS, SFTP, SMB über TLS
+- Deaktivierung nicht benötigter Dienste wie FTP oder Telnet
 
-Ein NAS sollte nicht über offene Ports direkt aus dem Internet erreichbar sein. Der Zugriff von außen sollte über ein VPN erfolgen. Zusätzlich empfiehlt sich die Aktivierung von Zwei-Faktor-Authentifizierung (2FA) für Admin- und Benutzerkonten. Nicht benötigte Dienste (z. B. Telnet, FTP) sollten deaktiviert werden. Bei externem Zugriff ist die Nutzung verschlüsselter Protokolle (HTTPS, SFTP, SMB über TLS) Pflicht.
+### Systempflege
+- Regelmäßige Updates des Betriebssystems und installierter Pakete
+- Keine Installation unsicherer Drittanbieter-Software
+- Absicherung über integrierte Firewalls und IP-Zugriffsfilter
 
-### Software- und Systempflege
-
-Das NAS-Betriebssystem und installierte Apps sollten regelmäßig aktualisiert werden, um bekannte Sicherheitslücken zu schließen. Drittanbieter-Software sollte nur aus vertrauenswürdigen Quellen installiert werden. Bei modernen Systemen ist es möglich, Sicherheitsrichtlinien und Firewalleinstellungen direkt am NAS zu definieren.
-
-### Verschlüsselung und Backup
-
-Viele NAS-Geräte bieten die Möglichkeit, Daten auf Volume- oder Ordnerebene zu verschlüsseln. Auch Backups – ob auf externen Laufwerken, in der Cloud oder auf ein zweites NAS – sollten verschlüsselt abgelegt werden. Snapshots und Versionierung helfen, Daten bei versehentlichen Löschungen oder Ransomware-Angriffen wiederherzustellen. Eine solide Backup-Strategie nach der 3-2-1-Regel (3 Kopien, 2 Medientypen, 1 externes Backup) ist essenziell.
+### Datensicherheit
+- Möglichkeit zur Verschlüsselung von Volumes oder Freigaben
+- Nutzung von Snapshots und Dateiversionierung zum Schutz vor Ransomware
+- Umsetzung eines Backup-Konzepts nach der 3-2-1-Regel:
+  - 3 Kopien der Daten
+  - auf 2 verschiedenen Speichermedien
+  - 1 Kopie außerhalb des NAS (z. B. auf externem Laufwerk oder zweitem NAS)
 
 ## Visualisierung der Architektur
 
