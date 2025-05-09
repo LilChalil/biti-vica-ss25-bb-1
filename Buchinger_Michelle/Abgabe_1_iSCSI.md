@@ -49,6 +49,6 @@ Fibre Channel hat einige klare Nachteile, besonders im Vergleich zu iSCSI:
 * Reichweite begrenzt
 * Flexibilität 
 
-![Diagramm](assets/iscsi_grafik.jpg)
+![iSCSI Diagramm](assets/grafik_iscsi.png)
 
 
