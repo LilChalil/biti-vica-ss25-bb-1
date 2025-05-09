@@ -51,4 +51,14 @@ Fibre Channel hat einige klare Nachteile, besonders im Vergleich zu iSCSI:
 
 ![iSCSI Diagramm](assets/grafik_iscsi.png)
 
+Target wird auf einer NAS 192.168.0.99 erstellt. Dabei erhält man IQN und LUN wird zugeordnet.
+![iSCSI Diagramm](assets/grafik_iscsi2.png)
+
+![iSCSI Diagramm](assets/grafik_iscsi3.png)
+
+![iSCSI Diagramm](assets/grafik_iscsi4.png)
+
+![iSCSI Diagramm](assets/grafik_iscsi5.png)
+
+![iSCSI Diagramm](assets/grafik_iscsi6.png)
 
