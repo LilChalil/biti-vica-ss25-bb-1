@@ -4,7 +4,7 @@
 
 Infrastructure as Code (IaC) ist ein Konzept, bei dem IT-Infrastruktur nicht mehr manuell eingerichtet, sondern in Form von Code beschrieben und automatisiert bereitgestellt wird. Dazu gehören z.B. virtuelle Server, Netzwerke, Datenbanken, Firewalls oder Storage-Systeme, also die gesamte Infrastruktur, die eine Anwendung zum Laufen benötigt.
 
-Statt sich per Mausklick durch eine Weboberfläche (z.B. bei AWS oder Azure) zu klicken, wird der gewünschte Zustand in Textdateien beschrieben. Diese Dateien werden von speziellen Tools verarbeitet und setzen die Infrastruktur automatisch um.
+Statt sich per Mausklick durch eine Weboberfläche (z.B. bei AWS oder Azure) zu klicken, wird der gewünschte Zustand in Textdateien beschrieben. Diese Dateien werden von speziellen Tools verarbeitet und setzen die Infrastruktur automatisch um. 
 
 ## Warum wird Infrastructure as Code verwendet?
 
