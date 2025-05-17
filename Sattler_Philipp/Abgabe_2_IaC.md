@@ -56,24 +56,6 @@ Je nach Anwendungsfall und vorhandener Umgebung kann das passende Tool ausgewäh
 
 ![IaC Architektur](assets/iac_architektur.png)
 
-```text
-+------------------+           +-------------------+
-|   Entwickler     |  Code     |   Git Repository  |
-+------------------+  Push     +-------------------+
-         |                               |
-         | CI/CD Pipeline (optional)     |
-         v                               v
-+------------------+           +------------------------+
-|   IaC-Tool (z.B. Terraform) |   → sprich mit →       |
-+------------------+           | Cloud/API (z.B. AWS)  |
-                               +------------------------+
-                                        |
-                              +------------------------+
-                              | Virtuelle Ressourcen   |
-                              | (Server, Netzwerk usw.)|
-                              +------------------------+
-```
-
 ## Fazit
 
 Infrastructure as Code ist ein essenzielles Konzept in der modernen IT. Es erlaubt die automatisierte, zuverlässige und nachvollziehbare Verwaltung von IT-Ressourcen. Durch die Nutzung von Code wird Infrastruktur versionierbar, portierbar und dokumentiert.
