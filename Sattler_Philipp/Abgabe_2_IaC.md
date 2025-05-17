@@ -8,7 +8,7 @@ Statt sich per Mausklick durch eine Weboberfläche (z.B. bei AWS oder Azure) zu 
 
 ## Warum wird Infrastructure as Code verwendet?
 
-Die Verwaltung von IT-Infrastruktur ist in den letzten Jahren deutlich anspruchsvoller geworden – insbesondere durch den verstärkten Einsatz dynamischer Cloud-Umgebungen. Manuelle Konfigurationen stoßen dabei schnell an ihre Grenzen: Sie sind fehleranfällig, zeitaufwendig und nur schwer nachvollziehbar oder reproduzierbar.
+Die Verwaltung von IT-Infrastruktur ist in den letzten Jahren deutlich anspruchsvoller geworden, insbesondere durch den verstärkten Einsatz dynamischer Cloud-Umgebungen. Manuelle Konfigurationen stoßen dabei schnell an ihre Grenzen: Sie sind fehleranfällig, zeitaufwendig und nur schwer nachvollziehbar oder reproduzierbar.
 
 Infrastructure as Code (IaC) wurde entwickelt, um genau diese Probleme zu lösen. Es ermöglicht, Infrastruktur in Form von Code zu beschreiben, automatisiert bereitzustellen und zentral zu verwalten. Dadurch wird Infrastruktur ähnlich behandelt wie Software: versionierbar, wiederholbar und skalierbar.
 
@@ -27,7 +27,7 @@ Infrastructure as Code (IaC) wurde entwickelt, um genau diese Probleme zu lösen
 
 - **Einlernaufwand für neue Tools**: Die Einarbeitung in Tools wie Terraform oder Ansible erfordert technisches Verständnis und initialen Aufwand
 - **Abhängigkeit von Tools**: Unterschiedliche Tools haben eigene Syntax, Eigenheiten und Lernkurven. Ein Wechsel ist oft aufwendig
-- **Fehlkonfigurationen können schwerwiegende Folgen haben**: Fehler im Code wirken sich direkt auf produktive Systeme aus – inklusive versehentlicher Löschungen
+- **Fehlkonfigurationen können schwerwiegende Folgen haben**: Fehler im Code wirken sich direkt auf produktive Systeme aus (inklusive versehentlicher Löschungen)
 - **Sensibler Umgang mit Zugangsdaten erforderlich**: API-Keys und Zugangsdaten dürfen nicht im Code landen, sondern müssen über externe Tools verwaltet werden
 
 ## Funktionsweise und zentrale Konzepte
