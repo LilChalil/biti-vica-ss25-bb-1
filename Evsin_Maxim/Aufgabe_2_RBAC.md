@@ -36,12 +36,12 @@ Ein Benutzer erhält über seine Rolle die zugehörigen Berechtigungen. So wird 
 ### Beispiel
 
 ```
-Nutzerin: Aylin
-Rolle: Datenanalystin
+Nutzerin: Max
+Rolle: Datenanalyst
 Rechte: Abfragen ausführen, Reports exportieren
 ```
 
-Wenn Aylin das Unternehmen verlässt, genügt es, ihr die Rolle zu entziehen – alle damit verbundenen Rechte werden automatisch entfernt.
+Wenn Max das Unternehmen verlässt, genügt es, ihm die Rolle zu entziehen – alle damit verbundenen Rechte werden automatisch entfernt.
 
 ## Vorteile und Nutzen
 
